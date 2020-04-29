@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'studenthome.dart';
+
+
+// Class Info
+// When a student clicks on a course they will
+// be brought here where the class name, id, and
+// description will be shown.
 
 class ClassInfo extends StatelessWidget {
 
