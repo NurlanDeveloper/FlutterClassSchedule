@@ -19,7 +19,9 @@ class ListStudents {
   List<Students> _studentList = [
     Students(name:'Ben Randall', number: 'C0427824', major: 'Software Development'),
     Students(name:'Chase Kuhn', number: 'C0992134', major: 'Software Development'),
+    Students(name:'Chase Kuhn', number: 'C0992134', major: 'Software Development'),
     Students(name:'Anthony Gulliford', number: 'C0478291', major: 'Software Development'),
+    Students(name:'Darth Vader', number: '3MP1R3', major: 'Business Analytics'),
 
   ];
 

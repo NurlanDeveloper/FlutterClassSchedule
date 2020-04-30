@@ -7,6 +7,7 @@ import 'classinfo.dart';
 // the course info and click on the plus to be
 // enrolled in the course
 
+// ignore: must_be_immutable
 class ClassList extends StatelessWidget {
 
 //  final String classlist;
