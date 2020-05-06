@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
               children: <Widget>[
                 new FlatButton(
                     child: Text("Enter As Student"),
-                    color: Colors.blue,
+                    color: Colors.green,
                     onPressed: (){
                       Navigator.push(context, MaterialPageRoute(
                           builder: (context) => StudentHome()));
@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
               children: <Widget>[
                 new FlatButton(
                   child: Text("Enter As Faculty"),
-                  color: Colors.blue,
+                  color: Colors.green,
                   onPressed: (){
 //                    Navigator.push(context, MaterialPageRoute(
 //                        builder: (context) => StudentHome()));

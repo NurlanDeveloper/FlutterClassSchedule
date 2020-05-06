@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutterclasses/pages/classlist.dart';
+import 'package:flutterclasses/pages/mucourses.dart';
 import 'package:flutterclasses/students.dart';
 import 'classinfo.dart';
+import 'home.dart';
 
 // Home page - When the app starts, you will be brought here.
 // Click on a student to select that student and start assigning
@@ -21,7 +23,7 @@ class StudentHome extends StatelessWidget {
       ),
       backgroundColor: Colors.white,
       body: ListView.builder(
-          itemCount: 4,
+          itemCount: 6,
           itemBuilder: (BuildContext content, int index) {
           return Card(
                 elevation: 20,
@@ -37,7 +39,8 @@ class StudentHome extends StatelessWidget {
                   subtitle: Text(students.getMajor(index)),
                   onTap: () {
                     Navigator.push(context, MaterialPageRoute(
-                        builder: (context) => ClassList()));
+                        //builder: (context) => ClassList()));
+                        builder: (context) => MyCourses()));
                   },
                 )
             );
